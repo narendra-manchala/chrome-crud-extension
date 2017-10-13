@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "CRUD",
+  "description": "Basic CRUD operations in chrome extension",
+  "version": "1.0",
+  "browser_action":{
+    "default_popup":"popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://*/*",
+    "storage"
+  ]
+}
